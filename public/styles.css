@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(255, 255, 255);
+    /* background-color: burlywood; */
+}
+
+/* Styling the navbar */
+#navbar{
+    background-color: rgba(228, 228, 228, 0.6);
+    border-radius: 25px;
+}
+
+.custom-navbar .nav-link {
+    color: black;
+  }
+  
+.logo-text{
+    font-style: italic;
+} 
+
+  /* .custom-navbar .nav-link:hover {
+    color: rgb(0, 0, 0); 
+  } */
+
+
+/* Styling the header */
+
+/* Left container styling */
+.img-container {
+    overflow: hidden;
+    position: relative;
+}
+
+.img-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+
+/* Right container styling */
+#right-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    height: 100%;
+}
+
+#right-container h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+#right-container p {
+    font-size: 1rem;
+    color: #555;
+    text-align: center;
+}
+
+/* Responsive typography */
+@media (max-width: 767px) {
+    #right-container h2 {
+        font-size: 1.25rem;
+    }
+
+    #right-container p {
+        font-size: 0.875rem;
+    }
+}
+
+/* Brand styling */
+#brand-img {
+    width: 60;
+}
+
+
+
+/* Styling  the product section */
+.product-card {
+    margin-bottom: 30px;
+}
+.card-img-top {
+    height: 180px;
+    object-fit: cover;
+}
+.card-description {
+    font-size: 0.9rem;
+    color: #666;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+.btn-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+.btn-sm {
+    font-size: 0.875rem; 
+    padding: 0.375rem 0.75rem; 
+}
+
+/* Product Intro */
+#product-intro{
+    background-color: rgb(170, 170, 170);
+    opacity: 50%;
+}
+.img-larger {
+    height: 200px; 
+    object-fit: cover;
+  }
+
+  /* Footer Code here  */
+  footer{
+    background-color: rgba(99, 99, 99, 0.8);
+  }
